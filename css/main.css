@@ -32,7 +32,7 @@ button{
     transition: var(--smooth);
 }
 button:hover{
-    background-color: var(--green-l);
+    /* background-color: var(--green-l); */
     transition: var(--smooth);
 }
 :root{
@@ -48,7 +48,6 @@ button:hover{
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, .4);
     z-index: 4;
 }
 #overlay.show{
